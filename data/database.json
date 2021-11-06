@@ -1,0 +1,14 @@
+{
+  "pokemons": [
+    {
+      "name": "eevee",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+      "id": 1
+    },
+    {
+      "name": "jigglypuff",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "id": 2
+    }
+  ]
+}
