@@ -48,6 +48,7 @@ const Catch = () => {
 
     return ( 
         <div className="pokemon-gerado">
+            <h1>Pokedex da Luh</h1>
             <p>{ name }</p>
             <img src={pokeImage} alt="pokeImage" width="300px"/>
             <button onClick = { handleRandom }> Gerar </button>
