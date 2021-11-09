@@ -7,7 +7,7 @@ const IndividualPokemon = (props) => {
             { myPokemons.map( (myPokemons ) => (
                 <div className="individual-pokemon">
                     <p>{myPokemons.name}</p>
-                    <img src={myPokemons.pokeImage} alt="" />
+                    <img src={ myPokemons.pokeImage } alt="" />
                 </div>
             ))}
         </div>

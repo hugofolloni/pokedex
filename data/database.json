@@ -9,6 +9,51 @@
       "name": "jigglypuff",
       "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
       "id": 2
+    },
+    {
+      "name": "goldeen",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+      "id": 3
+    },
+    {
+      "name": "Wigglytuff",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "id": 4
+    },
+    {
+      "name": "Scyther",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+      "id": 5
+    },
+    {
+      "name": "Jolteon",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+      "id": 6
+    },
+    {
+      "name": "Venusaur",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "id": 7
+    },
+    {
+      "name": "Horsea",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+      "id": 8
+    },
+    {
+      "name": "Pinsir",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+      "id": 9
+    },
+    {
+      "name": "Voltorb",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+      "id": 10
+    },
+    {
+      "name": "Moltres",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+      "id": 11
     }
   ]
 }

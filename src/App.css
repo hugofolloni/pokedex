@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+.home{
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.home h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.home button {
+  margin-top: 45vh;
+}
+
+.red{
+  background-color: red;
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  box-shadow: inset 0px -10px 0px black;
+}
+
+button {
+  background-color: red;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.catch {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.catch h3 {
+  font-size: 36px;
+  margin-bottom: 5vh;
+  color: white;
+}
+
+.pokeballCenter {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px black solid;
+  border-radius: 50%;
+  margin-bottom: 10vh;
+}
+
+
+
+button:hover{
+  background-color: rgb(219, 61, 61);
+}
