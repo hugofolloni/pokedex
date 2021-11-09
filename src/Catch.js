@@ -61,9 +61,9 @@ const Catch = () => {
                  <img src={pokeImage} alt="pokeImage" width="250px"/>
             </div>
             <div className="balls">
-                <button onClick = {() => handleCatch(0.3) }>Bola padrão</button>
-                <button onClick = { () => handleCatch(0.6) }>Bola super</button>
-                <button onClick = { () => handleCatch(0.9) }>Bola suprema</button>
+                <button onClick = {() => handleCatch(0.3) }>Pokeball</button>
+                <button onClick = { () => handleCatch(0.6) }>Greatball</button>
+                <button onClick = { () => handleCatch(0.9) }>Ultraball</button>
             </div>
             <div className="red"/>
         </div>
