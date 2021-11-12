@@ -13,3 +13,6 @@ On the first page, the user click to start the game. The catch page is a random 
 - PokeAPI
 
 ## 🎨 UI
+![image](https://user-images.githubusercontent.com/82226141/141390634-3f5af6cd-adda-4238-aa65-8af03e8b8231.png)
+![image](https://user-images.githubusercontent.com/82226141/141390661-6bc8563c-0287-4282-90fe-75004c9e519f.png)
+
