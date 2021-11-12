@@ -97,7 +97,7 @@ const Catch = () => {
             </div>
             <h3>{ name }</h3>
             <div className="pokeballCenter">
-                 <img src={pokeImage} alt="pokeImage" width="250px"/>
+                 <img src={pokeImage} alt="pokeImage" width="250px" height='250px'/>
             </div>
             {showButtons && <div id='balls' className="balls">
                 <button onClick = { () => 

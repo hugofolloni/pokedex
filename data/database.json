@@ -324,6 +324,45 @@
         "powerLevel": 449
       },
       "id": 25
+    },
+    {
+      "name": "Nidoking",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+      "day": "16:46 - 12/11/2021",
+      "pokeData": {
+        "type": "Poison",
+        "hp": 81,
+        "attack": 102,
+        "defense": 77,
+        "powerLevel": 308
+      },
+      "id": 26
+    },
+    {
+      "name": "Rapidash",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+      "day": "16:47 - 12/11/2021",
+      "pokeData": {
+        "type": "Fire",
+        "hp": 65,
+        "attack": 100,
+        "defense": 70,
+        "powerLevel": 275
+      },
+      "id": 27
+    },
+    {
+      "name": "Jigglypuff",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "day": "16:54 - 12/11/2021",
+      "pokeData": {
+        "type": "Normal",
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "powerLevel": 304
+      },
+      "id": 28
     }
   ]
 }
