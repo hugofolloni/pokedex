@@ -1,59 +1,121 @@
 {
   "pokemons": [
     {
-      "name": "eevee",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+      "name": "Blastoise",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "day": "19:29 - 11/11/2021",
+      "pokeData": {
+        "type": "Water",
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "powerLevel": 405
+      },
       "id": 1
     },
     {
-      "name": "jigglypuff",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "name": "Meowth",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+      "day": "19:48 - 11/11/2021",
+      "pokeData": {
+        "type": "Normal",
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "powerLevel": 70
+      },
       "id": 2
     },
     {
-      "name": "goldeen",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+      "name": "Machamp",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+      "day": "20:8 - 11/11/2021",
+      "pokeData": {
+        "type": "Fighting",
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "powerLevel": 762
+      },
       "id": 3
     },
     {
-      "name": "Wigglytuff",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "name": "Lapras",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+      "day": "20:12 - 11/11/2021",
+      "pokeData": {
+        "type": "Water",
+        "hp": 130,
+        "attack": 85,
+        "defense": 80,
+        "powerLevel": 526
+      },
       "id": 4
     },
     {
-      "name": "Scyther",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+      "name": "Growlithe",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+      "day": "20:32 - 11/11/2021",
+      "pokeData": {
+        "type": "Fire",
+        "hp": 55,
+        "attack": 70,
+        "defense": 45,
+        "powerLevel": 123
+      },
       "id": 5
     },
     {
-      "name": "Jolteon",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+      "name": "Vaporeon",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+      "day": "20:34 - 11/11/2021",
+      "pokeData": {
+        "type": "Water",
+        "hp": 130,
+        "attack": 65,
+        "defense": 60,
+        "powerLevel": 219
+      },
       "id": 6
     },
     {
-      "name": "Venusaur",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "name": "Mew",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+      "day": "20:44 - 11/11/2021",
+      "pokeData": {
+        "type": "Psychic",
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "powerLevel": 936
+      },
       "id": 7
     },
     {
-      "name": "Horsea",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+      "name": "Raichu",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+      "day": "21:17 - 11/11/2021",
+      "pokeData": {
+        "type": "Electric",
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "powerLevel": 592
+      },
       "id": 8
     },
     {
-      "name": "Pinsir",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+      "name": "Porygon",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+      "day": "21:25 - 11/11/2021",
+      "pokeData": {
+        "type": "Normal",
+        "hp": 65,
+        "attack": 60,
+        "defense": 70,
+        "powerLevel": 146
+      },
       "id": 9
-    },
-    {
-      "name": "Voltorb",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
-      "id": 10
-    },
-    {
-      "name": "Moltres",
-      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
-      "id": 11
     }
   ]
 }

@@ -5,6 +5,9 @@
   font-family: sans-serif;
 }
 
+html{
+  overflow-x: hidden;
+}
 body{
   background-color: white;
 }
@@ -35,7 +38,7 @@ body{
 
 button {
   background-color: red;
-  margin: 0 10px;
+  margin-top: 50vh;
   padding: 20px;
   border-radius: 10px;
   color: white;
@@ -54,24 +57,163 @@ button {
   height: 100vh;
 }
 
+.redirect-to-pokelist{ 
+  margin-bottom: 1vh;
+  display: flex;
+  width: 80vw;
+  justify-content: flex-end;
+  position: fixed;
+  top: 10%;
+}
+
+.to-space {
+  display: flex;
+  width: 20px;
+  justify-content: center;
+}
+
+.balls {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 28%;
+}
+
+.pokelist {
+  background-color: red;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.to-space a{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 0.3s ease all;
+}
+
+.to-space a:hover{
+  letter-spacing: 1px;
+}
+
 .catch h3 {
   font-size: 36px;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   color: white;
+  position: fixed;
+  top: 13%;
 }
 
 .pokeballCenter {
   background-color: white;
   display: flex;
+  position: fixed;
+  top: 28%;
   align-items: center;
   justify-content: center;
   border: 10px black solid;
-  border-radius: 50%;
+  border-radius: 50vw;
   margin-bottom: 10vh;
 }
 
-
-
 button:hover{
   background-color: rgb(219, 61, 61);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.individual-pokemon {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin: 15px;
+  width: 90%;
+  height: 200px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.principal  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.name-p {
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.individual-pokemon img {
+  height: 150px;
+  width: 150px;
+}
+
+.power-p {
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-abt{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-around;
+}
+
+.date{
+  display: flex;
+  flex-direction: column;
+  height: 75%;
+  justify-content: flex-end;
+}
+
+.loading {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20vh;
+}
+
+.header h1 {
+  color: white;
+  margin-left: 15%;
+  margin-right: -15%;
+}
+
+.skip{
+  position: absolute;
+  right: 0;
+  top: 50
+}
+
+.skip p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 100px;
+  margin-top: 50px;
+  margin-right: 40px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.5s ease-in-out all;
+}
+
+.skip p:hover{
+  font-size: 120px;
 }

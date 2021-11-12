@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home/>} />
           <Route exact path='/catch' element={<Catch/>} />
-          <Route exact path='/list' element={<PokeList/>} />
+          <Route exact path='/pokelist' element={<PokeList/>} />
         </Routes>
       </div>
     </Router>

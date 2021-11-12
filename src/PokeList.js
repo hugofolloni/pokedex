@@ -4,26 +4,32 @@ import IndividualPokemon from "./IndividualPokemon"
 const PokeList = () => {
 
     const [ myPokemons, setMyPokemons ] = useState(null)
+    const [ isLoading, setLoading ] = useState(true);
 
     const url = 'http://localhost:8000/pokemons'
 
     useEffect(() => {
-        setInterval(() => {
-            fetch(url)
-            .then(res => {
-                return res.json()
-            })
-            .then(data => {
-                setMyPokemons(data)
-            })
-        }, 5000)
+        fetch(url)
+        .then(res => {
+            return res.json()
+        })
+        .then(data => {
+            setMyPokemons(data)
+            setLoading(false)
+        })
     }, [url])
 
     return ( 
         <div className="pokelist">
-            <h1>PokeList</h1>
-            <h4>Essa é a sua lista com todos os seus Pokemons!</h4>
-            <h5>Pokemons</h5>
+            <div className="header">
+                <h1>PokeList</h1>
+                <div className='redirect-to-pokelist'>
+                    <div className="to-space">
+                    <a href='/catch'>Search</a>
+                    </div>           
+                </div>
+            </div>
+            { isLoading && <div> <p className='loading'> Opening Pokedex... </p> </div>}
             { myPokemons && <IndividualPokemon myPokemons = { myPokemons }/> }
         </div>
      );
