@@ -105,6 +105,8 @@ const Catch = () => {
                         if(Math.random() > 0.95){
                             localStorage.setItem('greatball', Number(greatballNumber) + 20);
                             localStorage.setItem('ultraball', Number(ultraballNumber) + 4);
+                            setGreatballNumber(Number(greatballNumber) + 20)
+                            setUltraballNumber(Number(ultraballNumber) + 4)
                             window.alert("Congratulations! You've earned 20 Greatballs and 4 Ultraballs!");
                         }
                         handleCatch(0.3);

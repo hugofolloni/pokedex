@@ -116,6 +116,214 @@
         "powerLevel": 146
       },
       "id": 9
+    },
+    {
+      "name": "Blastoise",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "day": "22:07 - 11/11/2021",
+      "pokeData": {
+        "type": "Water",
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "powerLevel": 273
+      },
+      "id": 10
+    },
+    {
+      "name": "Rhyhorn",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+      "day": "22:07 - 11/11/2021",
+      "pokeData": {
+        "type": "Ground",
+        "hp": 80,
+        "attack": 85,
+        "defense": 95,
+        "powerLevel": 258
+      },
+      "id": 11
+    },
+    {
+      "name": "Psyduck",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+      "day": "22:07 - 11/11/2021",
+      "pokeData": {
+        "type": "Water",
+        "hp": 50,
+        "attack": 52,
+        "defense": 48,
+        "powerLevel": 82
+      },
+      "id": 12
+    },
+    {
+      "name": "Wigglytuff",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "day": "22:07 - 11/11/2021",
+      "pokeData": {
+        "type": "Normal",
+        "hp": 140,
+        "attack": 70,
+        "defense": 45,
+        "powerLevel": 740
+      },
+      "id": 13
+    },
+    {
+      "name": "Magneton",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+      "day": "22:08 - 11/11/2021",
+      "pokeData": {
+        "type": "Electric",
+        "hp": 50,
+        "attack": 60,
+        "defense": 95,
+        "powerLevel": 189
+      },
+      "id": 14
+    },
+    {
+      "name": "Arcanine",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+      "day": "22:11 - 11/11/2021",
+      "pokeData": {
+        "type": "Fire",
+        "hp": 90,
+        "attack": 110,
+        "defense": 80,
+        "powerLevel": 278
+      },
+      "id": 15
+    },
+    {
+      "name": "Onix",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+      "day": "22:21 - 11/11/2021",
+      "pokeData": {
+        "type": "Rock",
+        "hp": 35,
+        "attack": 45,
+        "defense": 160,
+        "powerLevel": 139
+      },
+      "id": 16
+    },
+    {
+      "name": "Charmander",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "day": "22:21 - 11/11/2021",
+      "pokeData": {
+        "type": "Fire",
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "powerLevel": 83
+      },
+      "id": 17
+    },
+    {
+      "name": "Sandshrew",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+      "day": "22:21 - 11/11/2021",
+      "pokeData": {
+        "type": "Ground",
+        "hp": 50,
+        "attack": 75,
+        "defense": 85,
+        "powerLevel": 95
+      },
+      "id": 18
+    },
+    {
+      "name": "Pidgeotto",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+      "day": "22:22 - 11/11/2021",
+      "pokeData": {
+        "type": "Normal",
+        "hp": 63,
+        "attack": 60,
+        "defense": 55,
+        "powerLevel": 240
+      },
+      "id": 19
+    },
+    {
+      "name": "Krabby",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+      "day": "22:23 - 11/11/2021",
+      "pokeData": {
+        "type": "Water",
+        "hp": 30,
+        "attack": 105,
+        "defense": 90,
+        "powerLevel": 198
+      },
+      "id": 20
+    },
+    {
+      "name": "Vaporeon",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+      "day": "22:24 - 11/11/2021",
+      "pokeData": {
+        "type": "Water",
+        "hp": 130,
+        "attack": 65,
+        "defense": 60,
+        "powerLevel": 212
+      },
+      "id": 21
+    },
+    {
+      "name": "Charmeleon",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "day": "22:25 - 11/11/2021",
+      "pokeData": {
+        "type": "Fire",
+        "hp": 58,
+        "attack": 64,
+        "defense": 58,
+        "powerLevel": 176
+      },
+      "id": 22
+    },
+    {
+      "name": "Raichu",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+      "day": "22:26 - 11/11/2021",
+      "pokeData": {
+        "type": "Electric",
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "powerLevel": 252
+      },
+      "id": 23
+    },
+    {
+      "name": "Voltorb",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+      "day": "22:27 - 11/11/2021",
+      "pokeData": {
+        "type": "Electric",
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "powerLevel": 111
+      },
+      "id": 24
+    },
+    {
+      "name": "Charizard",
+      "pokeImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "day": "22:30 - 11/11/2021",
+      "pokeData": {
+        "type": "Fire",
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "powerLevel": 449
+      },
+      "id": 25
     }
   ]
 }
