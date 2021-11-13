@@ -3,7 +3,7 @@ import pokedexPNG from "./assets/pokedexPNG.png";
 import infinitySymbol from "./assets/infinitySymbol.png";
 
 const Catch = () => {
-    const [name, setName] = useState('Buscando...');
+    const [name, setName] = useState('Searching...');
     const [pokeImage, setPokeImage] = useState(pokedexPNG);
     const [type, setType] = useState(null);
     const [hp, setHp] = useState(null);
@@ -56,7 +56,7 @@ const Catch = () => {
         const randomNumber = Math.random();
         console.log(randomNumber, perc);
         if(randomNumber <= perc){
-            window.alert(`Você capturou o Pokemon ${name}!`);
+            window.alert(`Gotcha! You've got the pokemon ${name}!`);
             const data = new Date();
             const day = data.getHours().toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false}) + ':' + data.getMinutes().toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false}) + ' - ' + data.getDate().toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false}) + '/' + (data.getMonth() + 1).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false}) + '/' + data.getFullYear();
             const pokeData = { type, hp, attack, defense, powerLevel };
@@ -67,12 +67,12 @@ const Catch = () => {
                 body: JSON.stringify(singlePokemon)
             })
             .then(() => {
-                window.alert(`${name} foi adicionado a pokedex!`);
+                window.alert(`${name} was added to your Pokedex!`);
                 searching();
             })
         }
         else{
-            window.alert(`O Pokemon ${name} fugiu! Vamos procurar outro!`);
+            window.alert(`${name} ran away! Let's search for another!`);
             searching();
         }
     }
